@@ -1,0 +1,8 @@
+#ignore packages installed by npm
+node_modules
+#忽略编辑器创建的波型号的备份文件
+*～
+#忽略mac ？
+.DS_Store
+#put any other files you don't want to check in here
+#such as .DS_Store(OSX),*.bak,etc

@@ -1,0 +1,7 @@
+//- 继承layout 内容
+extends layout
+
+block content
+    ul
+        each article, i in articles
+            li=article.title

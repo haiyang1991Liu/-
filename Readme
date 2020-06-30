@@ -1,0 +1,13 @@
+0.前端安装依赖都放在public bower_components,这里前端依赖 只会
+发生在服务端渲染
+1.npm start 执行 node 命令 app.js
+2.npm run rApp 执行 nodemon 命令 app1.js
+3.nodemon 用来解决更新后 代码还是用的老node 代码 但依旧需要刷新浏览器
+4.gitnore 用于上传的时候忽略node_module里面的内容
+5.app.js 项目后端入口文件 基于pugs 视图引擎
+6.app1.js 也是项目入口文件 基于handlebars 视图引擎
+7.git add . ：他会监控工作区的状态树，使用它会把工作时的所有变化提交到暂存区，
+            包括文件内容修改(modified)以及新文件(new)，但不包括被删除的文件。
+8.git add -u ：他仅监控已经被add的文件（即tracked file），
+            他会将被修改的文件提交到暂存区。add -u 不会提交新文件（untracked file）。（git add --update的缩写）
+9.git add -A ：是上面两个功能的合集（git add --all的缩写）
